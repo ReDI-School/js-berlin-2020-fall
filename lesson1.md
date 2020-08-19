@@ -198,7 +198,7 @@ Basic mathematical operators:
 
 ### Quick Quiz
 
-Let's say, everyone here with our siblings wants to go to the cinema.
+Let's say, everyone here wants to go to the cinema with their siblings.
 
 How many people in total are going to the cinema?
 <!-- .element: class="fragment" -->
@@ -388,7 +388,7 @@ We are not going to explain them today, but definitely when we talk about condit
 
 *  **Undefined** has only one value: `undefined`
 * it is just `undefined`
-* it means there is not value here
+* it means there is no value here
 
 ---
 
