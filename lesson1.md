@@ -13,6 +13,7 @@ Lesson 1, Tuesday, 2020-08-25
 > It does not matter what we cover, but what you discover
 >
 > \- Noam Chomsky
+
 ---
 
 ### Pillars of Web Development
