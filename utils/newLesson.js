@@ -38,9 +38,9 @@ Lesson ${nextLesson}, ${nextDate.getDay() == 2 ? "Tuesday" : "Thursday"}, ${next
 fs.writeFileSync(`lesson${nextLesson}.md`, template);
 
 function patchTableOfContents() {
-    let lesson1 = fs.readFileSync("lesson1.md", { encoding: 'utf8' });
-    lesson1 = lesson1.replace(/^(Direct link to lessons:.*)$/mg, `$1 [${nextLesson}](#lesson${nextLesson})`);
-    fs.writeFileSync("lesson1.md", lesson1);
+    let toc = fs.readFileSync("toc.md", { encoding: 'utf8' });
+    toc = toc.replace(/^(Direct link to lessons:.*)$/mg, `$1 [${nextLesson}](#lesson${nextLesson})`);
+    fs.writeFileSync("toc.md", toc);
 }
 patchTableOfContents();
 
