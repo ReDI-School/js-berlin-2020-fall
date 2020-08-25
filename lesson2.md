@@ -285,7 +285,7 @@ A variable that is not initialized with a value is always `undefined`:
 ```js
 let temperature;     // undefined
 let name;            // undefined
-let teacherIsNice;   // undefined
+let isTeacherNice;   // undefined
 ```
 
 ---
