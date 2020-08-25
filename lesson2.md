@@ -213,7 +213,7 @@ we use `Variables`!
 
 ### Variable
 
-A pointer to data or value.
+A pointer to value.
 
 ```js
 let price = 5;
