@@ -308,7 +308,7 @@ console.log("my full name is " + fullName);
 
 ### Why is it called variable?
 
-We can modify the values that a variable points to at any time:
+We can modify the value that a variable points to at any time:
 
 ```js
 let year = 2019;  // at this point, year is 2019
