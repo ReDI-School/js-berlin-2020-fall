@@ -374,7 +374,7 @@ These are 3 different variables.
 
 ### naming Boolean variables
 
-When naming boolean variables, it is best to give it a name that describes a yes/no situation:
+When naming boolean variables, it is best to give it a name that describes a yes/no question:
 
 - isMarried
 - hasKids
