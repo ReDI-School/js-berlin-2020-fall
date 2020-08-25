@@ -474,13 +474,13 @@ let text = "I live in" + " " + city;
 Convert Kilometer to Meter using JavaScript operators:
 
 ```js
-let kilometer = 28.5;
+let distanceInKilometer = 28.5;
 
 // 1 kilometer is 1000 meters
-let meter = // ???
+let distanceInMeter = // ???
 
 // output to the console to see the final result
-console.log(meter);
+console.log(distanceInMeter);
 ```
 
 ---
