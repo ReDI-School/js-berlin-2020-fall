@@ -388,7 +388,7 @@ create 4 variables:
 * one for your full name
 * one for your age
 * one for your favorite city
-* one for wether you can speak German or not
+* one for whether you can speak German or not
 
 `console.log()` all these variables!
 
