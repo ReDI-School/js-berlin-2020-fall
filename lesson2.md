@@ -436,7 +436,7 @@ JavaScript will ignore comments.
 ### top to bottom, line by line
 Wrong:
 ```js
-console.log(name); // WRONG!! the variable "name" is not created!
+console.log(name); // WRONG!! the variable "name" is not defined!
 
 let name = "Obi-Wan Kenobi";
 ```
