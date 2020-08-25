@@ -292,7 +292,7 @@ let isTeacherNice;   // undefined
 
 ### Variables
 
-Variables can be used wherever we would use values:
+Variables can be used wherever we can use values:
 
 ```js
 let firstName = "John";
