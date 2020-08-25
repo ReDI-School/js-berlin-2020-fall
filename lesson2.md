@@ -242,7 +242,7 @@ Can you guess how can we create a variable?
 
 ---
 
-### How do we create a Variable?
+### How do we define a variable?
 We write:
 * `let`
 * the variable name
