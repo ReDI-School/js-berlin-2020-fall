@@ -488,13 +488,13 @@ console.log(distanceInMeter);
 ### Solution
 
 ```js
-let kilometer = 28.5;
+let distanceInKilometer = 28.5;
 
 // 1 kilometer is 1000 meters
-let meter = kilometer * 1000;
+let distanceInMeter = distanceInKilometer * 1000;
 
 // output to the console to see the final result
-console.log(meter);
+console.log(distanceInMeter);
 ```
 
 ---
