@@ -238,7 +238,7 @@ let age = 50;
 let hasKids = false;
 ```
 
-Can you guess how can we create a variable?
+Can you guess how can we define a variable?
 
 ---
 
