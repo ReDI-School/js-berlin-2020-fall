@@ -203,9 +203,9 @@ console.log(3 * 4 + 5);
 
 ### Variables
 
-But with all these examples, we are just talking about data.
+But with all these examples, we are just talking about values.
 
-What if I wanted to save some data and use it later?
+What if I wanted to save some values and use them later?
 
 we use `Variables`!
 
