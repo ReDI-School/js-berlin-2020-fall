@@ -318,6 +318,16 @@ year = 2021;      // now it's 2021
 
 ---
 
+### Why do we use variables?
+
+We use variables...
+
+* ... to have a single truth. You declare the variable once, and use it often.
+* ... to give names (semantics) to values. `15` could mean a person’s age or number of new messages in his/her feed.
+* ... to prevent typing errors - for example Pi `3.141592`
+
+---
+
 ### Variable names
 
 You can name your variables whatever you want.
