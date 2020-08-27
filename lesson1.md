@@ -136,8 +136,6 @@ We'll be using these tools during our course:
 
 ---
 
-<!-- .slide: id="lesson1:datatypes" -->
-
 # Basic Data Types
 
 ---
