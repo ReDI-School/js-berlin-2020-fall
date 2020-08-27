@@ -1,4 +1,4 @@
-# Fall 2019 ReDI Berlin JavaScript course
+# Fall 2020 ReDI Berlin JavaScript course
 
 ## Students
 
