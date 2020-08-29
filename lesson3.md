@@ -4,7 +4,9 @@
 
 Lesson 3, Tuesday, 2020-09-01
 
+
 ---
+
 
 ### what we learned last time
 
@@ -18,7 +20,9 @@ Lesson 3, Tuesday, 2020-09-01
 
 * Use `console.log(...)` to output values to the console.
 
+
 ---
+
 
 ### We had a HomeWork
 
@@ -27,6 +31,7 @@ You have an online shop, which sells hats and t-shirts. One of the customers wan
 A hat costs 3.99€ and a t-shirt costs 9.99€. What is the total cost?
 
 Create all the variables needed, and output the final result to the console.
+
 
 ---
 
@@ -48,7 +53,9 @@ let totalCost = totalHatPrice + totalTShirtPrice;
 console.log(totalCost);
 ```
 
+
 ---
+
 
 ### Recap,  What does it print?
 
@@ -59,7 +66,9 @@ console.log("Hello " + name);
 
 Answer: It prints "Hello Sevtap" <!-- .element: class="fragment" -->
 
+
 ---
+
 
 ### What does it print?
 
@@ -71,7 +80,9 @@ console.log(greeting + " " + firstName);
 
 Answer: Error, "firstName" is not a variable <!-- .element: class="fragment" -->
 
+
 ---
+
 
 ### What does it print?
 
@@ -82,7 +93,9 @@ let temperature = 22;
 
 Answer: Error, "temperature" is not available <!-- .element: class="fragment" -->
 
+
 ---
+
 
 What do you think `x` and `y` are at the end of the program?
 
@@ -97,6 +110,7 @@ console.log(y);
 Answer: x is 43, y is 42 <!-- .element: class="fragment" -->
 
 So, Why?  <!-- .element: class="fragment" -->
+
 
 ---
 
@@ -124,6 +138,7 @@ We can "chain" some operators, for example:
 
 ---
 
+
 ### Operator chaining
 
 Is the following code valid?
@@ -135,7 +150,9 @@ Is the following code valid?
 It's valid JavaScript, but gives you the wrong result. Try it!
 <!-- .element: class="fragment" -->
 
+
 ---
+
 
 ### Operator chaining (cont.)
 
@@ -156,6 +173,7 @@ true > 5      // meaningless comparison!
 <!-- .element: class="fragment" -->
 
 Don't chain operators that return a boolean!
+
 
 ---
 
@@ -184,7 +202,9 @@ These operators only make sense on Boolean:
 * `||` Logical OR
 * `!` Logical NOT
 
+
 ---
+
 
 ### Logical AND &&
 
@@ -196,6 +216,7 @@ true  && false  // false
 false && true   // false
 false && false  // false
 ```
+
 
 ---
 
@@ -216,7 +237,9 @@ console.log(canMakeCheeseToast); // ?
 true!
 <!-- .element: class="fragment" -->
 
+
 ---
+
 
 ### Logical OR ||
 
@@ -228,6 +251,7 @@ true  || false  // true
 false || true   // true
 false || false  // false
 ```
+
 
 ---
 
@@ -252,6 +276,7 @@ false!
 
 ---
 
+
 ### Let's practice
 
 Use JavaScript to compute:
@@ -262,7 +287,9 @@ Use JavaScript to compute:
 
 The group is you, the person to your left and the one to your right.
 
+
 ---
+
 
 ### Solution
 
@@ -279,6 +306,7 @@ I need to be younger than person to my left AND I need to be younger than person
 
 ---
 
+
 Am I younger than at least one person in the group?
 
 I need to be younger than person to my left OR I need to be younger than person to my right
@@ -288,7 +316,9 @@ I need to be younger than person to my left OR I need to be younger than person 
 // false - I am not younger than at least one other person
 ```
 
+
 ---
+
 
 ### Logical NOT !
 
@@ -300,6 +330,7 @@ Logical NOT negates a boolean:
 ```
 
 Example: Am I NOT the youngest person?
+
 
 ---
 
@@ -314,6 +345,7 @@ What do you think is the result?
 
 Result: `6` <!-- .element: class="fragment" -->
 
+
 ---
 
 
@@ -321,6 +353,7 @@ Result: `6` <!-- .element: class="fragment" -->
 * Operators with higher precedence are evaluated first.
 * For example: multiplication `*` is more important than addition `+`
 * [You can see the full list here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+
 
 ---
 
@@ -339,6 +372,7 @@ It makes your code more clear.
 
 ---
 
+
 ### Quiz
 
 What does the following return?
@@ -356,7 +390,9 @@ false || true              // returns true
 ```
 <!-- .element: class="fragment" -->
 
+
 ---
+
 
 ### TIP: variables instead of chaining
 
@@ -378,6 +414,7 @@ let olderThanRight = myAge > rightPersonAge;
 let isOldest = olderThanLeft && olderThanRight;
 ```
 
+
 ---
 
 
@@ -396,6 +433,7 @@ Saskia and I volunteered to pay for the tickets, how much each one pays?
 
 
 ---
+
 
 ### Quick Quiz (Cont.)
 
@@ -419,7 +457,9 @@ The cinema will only allow us to enter if we are less than 30 people and if we p
 | Logical Operators | &#124;&#124; `&& !` | `a && !b`<br />`x >= 5 && x < 15` |
 | **Combined Operators** | `+= -= *= /= ++ --` | `a *= 2`<br />`count++` |
 
+
 ---
+
 
 ### Excursus: Combined Operators
 
@@ -437,7 +477,9 @@ let myAge = 42;
 myAge += 5;
 ```
 
+
 ---
+
 
 ### Quiz: What's the price?
 
@@ -453,7 +495,9 @@ price /= 2;
 Result: `5`
 <!-- .element: class="fragment" -->
 
+
 ---
+
 
 ### Operator ++ and --
 
@@ -463,6 +507,7 @@ Operator `++` and `--` increase (or decrease) the value of a variable by 1
 let myAge = 42;
 myAge++; // same as myAge = myAge + 1
 ```
+
 
 ---
 
@@ -483,6 +528,7 @@ But what if I want to run some code only if the user is logged in?
 
 ---
 
+
 ### If statement
 
 ```js
@@ -493,7 +539,9 @@ if (condition) {
 }
 ```
 
+
 ---
+
 
 ### If statements
 
@@ -507,7 +555,9 @@ if (condition) {
 * The code in the block is __only__ executed if the boolean is `true`
 * If the boolean is false, the code block is _not_ executed
 
+
 ---
+
 
 ### if Statements - Examples
 
@@ -529,7 +579,9 @@ if (canSpeakRussian) { // same as: canSpeakRussian === true
 }
 ```
 
+
 ---
+
 
 ### Code Blocks: {}
 
@@ -548,6 +600,7 @@ if (language === "German") {
 
 ---
 
+
 ### Code Blocks: {}
 
 All variables created in code blocks will disappear after closing the block (technical term: “block scope”)
@@ -565,7 +618,9 @@ if (name === "Mary Doyle") {
 console.log(greeting); // ERROR!!!!
 ```
 
+
 ---
+
 
 ### Code Blocks: {}
 
@@ -585,7 +640,9 @@ if (name === "Mary Doyle") {
 console.log(greeting); // "Hi dude"
 ```
 
+
 ---
+
 
 ### Quiz
 
@@ -599,7 +656,9 @@ if (food === "pizza") {
 }
 ```
 
+
 ---
+
 
 ### Quiz
 
@@ -612,6 +671,7 @@ if (age >= 18) {
     console.log("you are allowed to drive a car");
 }
 ```
+
 
 ---
 
@@ -628,7 +688,9 @@ If we can't get in the cinema, log to the console: We can't get in :(
 This pattern of doing something when a variable is `true` and something else when the variable is `false` if very common, that is why we have `if else`.
 <!-- .element: class="fragment" -->
 
+
 ---
+
 
 ### If...Else
 
@@ -644,7 +706,9 @@ if (condition) {
 }
 ```
 
+
 ---
+
 
 ### If...Else example
 
@@ -656,7 +720,9 @@ if (temperature > 25) {
 }
 ```
 
+
 ---
+
 
 ### More on the quiz
 
@@ -664,6 +730,7 @@ Lets go back to our code and use `if else`.
 
 
 ---
+
 
 ### If...Else-If...Else example
 
@@ -677,7 +744,9 @@ if (day === 'Saturday') {
 }
 ```
 
+
 ---
+
 
 ### Exercise
 
@@ -693,7 +762,9 @@ if (day === 'Saturday') {
   * Above 5
   * Everything else
 
+
 ---
+
 
 ### Is this correct?
 
@@ -713,7 +784,9 @@ if (temperature > 20) {
 
 Try with a temperature of 35, what does it print? <!-- .element: class="fragment" -->
 
+
 ---
+
 
 ### Correct solution
 
@@ -734,6 +807,7 @@ if (temperature > 30) {
 
 ---
 
+
 ### Let's code!
 
 Harald invented a game where the player with the highest value of his height (in cm) plus five times his age wins
@@ -742,7 +816,9 @@ Harald invented a game where the player with the highest value of his height (in
 1. Calculate the score
 1. Decide who wins, print the winner and their score to the console. Remember: there can be a draw (both players with the same score).
 
+
 ---
+
 
 ```js
 let myAge = 42;
