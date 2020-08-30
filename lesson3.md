@@ -97,7 +97,7 @@ Answer: Error, "temperature" is not available <!-- .element: class="fragment" --
 ---
 
 
-What do you think `x` and `y` are at the end of the program?
+What do you think `x` and `y` are at the end of the program? What are the two possible outcomes?
 
 ```js
 let x = 42;
@@ -120,7 +120,11 @@ So, Why?  <!-- .element: class="fragment" -->
 * This is called *pass by value*.
 * All basic data types (number, string, ...) are passed by value.
 * If you assign a variable to another variable, its value is __copied__.
-
+```js
+let name = "Abdullah";
+let name2 = name;
+name = "Carlo"; // name is now "Carlo", name2 is still "Abdullah"
+```js
 
 ---
 
@@ -196,7 +200,7 @@ Logical Operators! <!-- .element: class="fragment" -->
 
 ### Logical Operators
 
-These operators only make sense on Boolean:
+These operators only make sense on `boolean` values:
 
 * `&&` Logical AND
 * `||` Logical OR
