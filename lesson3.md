@@ -589,9 +589,7 @@ if (canSpeakRussian) { // same as: canSpeakRussian === true
 
 ### Code Blocks: {}
 
-Code blocks is the code between `{` and `}`
-
-Should be indented for better readability:
+Code blocks contain the code between `{` and `}`, and should be indented for better readability:
 
 ```js
 if (language === "German") {
