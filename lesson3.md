@@ -78,7 +78,7 @@ let name = "Sevtap";
 console.log(greeting + " " + firstName);
 ```
 
-Answer: Error, "firstName" is not a variable <!-- .element: class="fragment" -->
+Answer: Error, "firstName" is not defined. <!-- .element: class="fragment" -->
 
 
 ---
@@ -91,13 +91,13 @@ console.log("It is " + temperature + " degrees");
 let temperature = 22;
 ```
 
-Answer: Error, "temperature" is not available <!-- .element: class="fragment" -->
+Answer: Error, "temperature" is not defined. <!-- .element: class="fragment" -->
 
 
 ---
 
 
-What do you think `x` and `y` are at the end of the program? What are the two possible outcomes?
+What do you think `x` and `y` are at the end of the program?
 
 ```js
 let x = 42;
@@ -513,7 +513,7 @@ let myAge = 42;
 myAge++; // same as myAge = myAge + 1
 ```
 
-Combined operators only work with variables!
+Combined operators work only with variables!
 
 ---
 
