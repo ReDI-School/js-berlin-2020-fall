@@ -115,7 +115,7 @@ So, Why?  <!-- .element: class="fragment" -->
 ---
 
 
-### Bass by value
+### Pass by value
 
 * This is called *pass by value*.
 * All basic data types (number, string, ...) are passed by value.
@@ -433,7 +433,7 @@ How many people in total are going to the cinema?
 A ticket to watch the movie *The Joker* costs 8€, how much do we have to pay in total?
 <!-- .element: class="fragment" -->
 
-Saskia and I volunteered to pay for the tickets, how much each one pays?
+Saskia and I volunteered to pay for the tickets, how much do we each have to pay?
 <!-- .element: class="fragment" -->
 
 
