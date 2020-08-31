@@ -122,9 +122,10 @@ So, Why?  <!-- .element: class="fragment" -->
 * If you assign a variable to another variable, its value is __copied__.
 ```js
 let name = "Abdullah";
-let name2 = name;
-name = "Carlo"; // name is now "Carlo", name2 is still "Abdullah"
-```js
+let anotherName = name;
+name = "Carlo"; // name is now "Carlo"
+// but anotherName is still "Abdullah"
+```
 
 ---
 
@@ -512,6 +513,7 @@ let myAge = 42;
 myAge++; // same as myAge = myAge + 1
 ```
 
+Combined operators only work with variables!
 
 ---
 
