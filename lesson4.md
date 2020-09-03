@@ -349,8 +349,7 @@ if (day === 'Saturday') {
 }
 ```
 
-* First, JavaScript checks whether day is equal to `'Saturday'`. If that is the case, it writes `'Do all the shopping'` to console and _skips_ all the `else if` and `else` branches.
-* The code for the first condition in the `if..else-if...else` that is `true` is executed, all other code blocks are skipped.
+Only one code block is executed in the `if..else if..else`. To determine which block, JavaScript will evaluate the conditions from top to bottom. The first condition that evaluates to true determines the block to be executed. All the other code blocks are ignored.
 
 ---
 
