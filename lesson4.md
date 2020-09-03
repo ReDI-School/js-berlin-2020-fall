@@ -355,7 +355,7 @@ Only one code block is executed in the `if..else if..else`. To determine which b
 
 You can use [code-to-graph](https://crubier.github.io/code-to-graph/?code=aWYgKGRheSA9PT0gJ1NhdHVyZGF5JykgewogIGNvbnNvbGUubG9nKCdEbyBhbGwgdGhlIHNob3BwaW5nLicpOwp9IGVsc2UgaWYgKGRheSA9PT0gJ1N1bmRheScpIHsKICBjb25zb2xlLmxvZygnUmVsYXghJyk7Cn0gZWxzZSB7CiAgY29uc29sZS5sb2coJ1dha2UgdXAgYW5kIGdvIHRvIHdvcmshJyk7Cn0) for visualization:
 
-![if-else](images/if-else.svg)<!-- .element height="75%" width="100%" style="background-color: #999999" -->
+![if-else](images/if-else.svg)<!-- .element height="500px" width="100%" style="background-color: #999999" -->
 
 ---
 
