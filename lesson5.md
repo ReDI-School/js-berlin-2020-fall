@@ -474,7 +474,7 @@ console.log("32 degrees: " + fahrenheitToCelsius(32));
 
 ### Exercise
 
-Write a `min` function that returns the smaller of the two parameters:
+Write a `min` function that returns the smaller of the two numbers:
 
 ```js
 min(1, 2);    // should return 1
