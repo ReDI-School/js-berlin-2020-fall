@@ -466,8 +466,8 @@ function celsiusToFahrenheit(degreesCelsius) {
   return degreesFahrenheit;
 }
 
-console.log("28 degrees: " + fahrenheitToCelsius(28));
-console.log("32 degrees: " + fahrenheitToCelsius(32));
+console.log("28 degrees: " + celsiusToFahrenheit(28));
+console.log("32 degrees: " + celsiusToFahrenheit(32));
 ```
 
 ---
