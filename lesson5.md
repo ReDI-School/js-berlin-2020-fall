@@ -395,7 +395,7 @@ Functions without a return statements return undefined
 
 ### calling a function
 
-to execute a function, we write the function name, and then `()`, we pass any parameters we want into the `()`
+to execute a function, we write the function name, and then `()`, we pass any values we want into the `()`
 
 ```js
 function sayHello(){
@@ -403,7 +403,7 @@ function sayHello(){
 }
 
 // the function sayHello
-// does not require any parameters
+// does not require any values, it has no parameters
 // that is why the parenthesis () are empty.
 sayHello();
 ```
