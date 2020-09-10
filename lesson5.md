@@ -45,7 +45,7 @@ if (condition) {
 }
 ```
 
-The `else if` block will execute only if its condition is `true` **and** all conditions above are `false`.
+The `else if` block will execute only if `secondCondition` is `true` **and** all conditions above are `false`.
 <!-- .element: class="fragment" -->
 
 ---
