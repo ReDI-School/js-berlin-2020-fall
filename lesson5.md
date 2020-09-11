@@ -159,7 +159,7 @@ if (true)
 
 ### Exercise
 
-We are implementing a simple program that calculates the bonus an employee will get at the end of the year.
+We are implementing a simple program that calculates the earnings an employee will get at the end of the year.
 
 The company will give 1€ bonus for each regular work day, and 3€ for each extra work day.
 
@@ -170,9 +170,9 @@ The company will give 1€ bonus for each regular work day, and 3€ for each ex
 (regular day: 1€, extra: 3€)
 
 The employee gets:
-* a pay raise, if the total bonus is more than 250€.
-* nothing, if the total bonus is less than 100€.
-* a chocolate box, for any other bonus.
+* a pay raise, if the total earnings is more than 250€.
+* nothing, if the total earnings is less than 100€.
+* a chocolate box, for any other earnings.
 
 What does an employee with 200 regular days and 20 extra days get?
 
