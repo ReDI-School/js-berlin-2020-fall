@@ -273,7 +273,7 @@ HTML:
 JS:
 
 ```js
-function changeBackgroundColor() {
+function changeBackgroundColor(color) {
   document.body.style.backgroundColor = color;
 }
 ```
@@ -285,7 +285,7 @@ function changeBackgroundColor() {
 JS:
 
 ```js
-function changeBackgroundColor() {
+function changeBackgroundColor(color) {
   if (document.body.style.backgroundColor === color) {
     document.body.style.backgroundColor = "light" + color;
   } else {
