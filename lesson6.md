@@ -55,22 +55,20 @@ if (temperature >= 30) {
 
 ### Quiz
 
-What does the code below do?
+What do you notice about the code below?
 
 ```js
 let t1 = ((12 - 32) * 5) / 9;
 let t2 = ((15 - 32) * 5) / 9;
 ```
 
-Answer: We don't care. It has no semantics, it is a "good" example for badly written code that doesn't speak for itself.<!-- .element: class="fragment" -->
+It's quite hard to understand what it is doing and it is repetitive.<!-- .element: class="fragment" -->
+What could we do to make this piece of code more readable?<!-- .element: class="fragment" -->
+Use a function :)<!-- .element: class="fragment" -->
 
 ---
 
-## Next try...
-
----
-
-### Quiz - Try 2
+### Solution
 
 What does the code below do?
 
@@ -275,40 +273,5 @@ JS:
 ```js
 function changeBackgroundColor(color) {
   document.body.style.backgroundColor = color;
-}
-```
-
----
-
-### Solution bonus 1
-
-JS:
-
-```js
-function changeBackgroundColor(color) {
-  if (document.body.style.backgroundColor === color) {
-    document.body.style.backgroundColor = "light" + color;
-  } else {
-    document.body.style.backgroundColor = color;
-  }
-}
-```
-
----
-
-### Solution bonus 2
-
-JS:
-
-```js
-function turnBackgroundDark() {
-  let currentColor = document.body.style.backgroundColor;
-  if (currentColor === "pink" || currentColor === "lightpink") {
-    document.body.style.backgroundColor = "hotpink";
-  } else if (currentColor === "blue" || currentColor === "lightblue") {
-    document.body.style.backgroundColor = "darkblue";
-  } else if (currentColor === "green" || currentColor === "lightgreen") {
-    document.body.style.backgroundColor = "darkgreen";
-  }
 }
 ```
