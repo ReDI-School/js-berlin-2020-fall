@@ -29,7 +29,7 @@ const nextDate = getNextDate();
 const template =
 `<!-- .slide: id="lesson${nextLesson}" -->
 
-# Basic Frontend - Spring 2020
+# Basic Frontend - Fall 2020
 
 Lesson ${nextLesson}, ${nextDate.getDay() == 2 ? "Tuesday" : "Thursday"}, ${nextDate.getFullYear()}-${(nextDate.getMonth() + 1).toString().padStart(2, '0')}-${nextDate.getDate().toString().padStart(2, '0')}
 
@@ -48,7 +48,7 @@ function patchIndexHtml() {
     let index = fs.readFileSync("index.html", { encoding: "utf-8" });
     index = index.replace(
         /^(.*NEW_SECTION_HERE.*)$/mg,
-        `      <section data-markdown="lesson${nextLesson}.md" data-charset="utf-8"></section>\n$1`
+        `        <section data-markdown="lesson${nextLesson}.md" data-charset="utf-8"></section>\n$1`
     );
     fs.writeFileSync("index.html", index);
 }

@@ -156,11 +156,11 @@ Create a new folder
 Create a html file `index.html` and point to the JS file `main.js`:
 
 ```html
-<html>
-  <body>
+&lt;html>
+  &lt;body>
     <script src="main.js"></script>
-  </body>
-</html>
+  &lt;/body>
+&lt;/html>
 ```
 
 Create the JS file `main.js`:
