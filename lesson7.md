@@ -43,7 +43,7 @@ function turnBackgroundDark() {
 
 ### JavaScript, Functions, HTML
 
-Imagine the following JavaScript file being loaded in the `<body>` of the HTML page. Whan and what does it print?
+Imagine the following JavaScript file being loaded in the `<body>` of the HTML page. When and what does it print?
 
 ```js
 console.log("blah");
