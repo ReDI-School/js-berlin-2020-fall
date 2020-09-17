@@ -73,6 +73,22 @@ Example: First button click, it prints "1". Third button click, it prints "3", a
 
 ---
 
+HTML:
+```html
+<button onclick="buttonClicked()">Click me</button>
+```
+
+JavaScript:
+```js
+let clickCount = 0;
+function buttonClicked() {
+    clickCount++;
+    console.log(clickCount);
+}
+```
+
+---
+
 ### Number guessing game
 
 You're a member of an international team of game programmers. Your teammates already developed the frontend and some utility functions for a number guessing game.
