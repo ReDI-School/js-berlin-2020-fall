@@ -197,7 +197,7 @@ Squaring the first 10 numbers
 ```js
 let i = 1;
 while (i < 11) {
-  console.log(i * i);
+  console.log(i * i); // or i ** 2
   i++;
 }
 ```
