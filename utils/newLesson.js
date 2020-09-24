@@ -48,7 +48,7 @@ function patchIndexHtml() {
     let index = fs.readFileSync("index.html", { encoding: "utf-8" });
     index = index.replace(
         /^(.*NEW_SECTION_HERE.*)$/mg,
-        `        <section data-markdown="lesson${nextLesson}.md" data-charset="utf-8"></section>\n$1`
+        `          <section data-markdown="lesson${nextLesson}.md" data-charset="utf-8"></section>\n$1`
     );
     fs.writeFileSync("index.html", index);
 }
