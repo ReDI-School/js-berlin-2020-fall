@@ -108,7 +108,7 @@ console.log(books[1]); // "The Hobbit"
 console.log(books[2]); // "Game of Thrones"
 ```
 <!-- .element: class="fragment" -->
-The order of elements in the array matter!
+The order of elements in the array matters!
 <!-- .element: class="fragment" -->
 
 
