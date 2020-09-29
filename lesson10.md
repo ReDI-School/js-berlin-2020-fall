@@ -313,3 +313,41 @@ function exercise3(array) {
 exercise3([3, 2, 9, 5, 6]);
 ```
 <!-- .slide: style="font-size:70%" -->
+
+---
+
+### Solution Bonus 1
+
+```js
+function lessThan5(arr) {
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < 5) {
+      result.push(arr[i]);
+    }
+  }
+  return result;
+}
+
+let result = lessThan5([1, 3, 7, 2, 9, 5]);
+console.log(result);
+```
+
+---
+
+### Solution Bonus 2
+
+```js
+function find(num, arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === num) {
+      return i;
+    }
+  }
+  return -1;
+}
+
+console.log(find(5, [2, 1, 5, 6, 3]));
+console.log(find(42, [2, 1, 5, 6, 3]));
+```
+
