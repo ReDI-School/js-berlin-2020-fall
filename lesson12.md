@@ -38,8 +38,8 @@ let firstName = "Carlo";
 let lastName = "Trimarchi";
 let nationality = "Italian";
 let cityOfBirth = "Messina";
-let favouriteColour = "green";
-let hairColour = "black";
+let favouriteColor = "green";
+let hairColor = "black";
 let canSpeakGerman = false;
 let isVegetarian = true;
 let hadDinner = hour > 20; // false
@@ -47,12 +47,19 @@ let hadDinner = hour > 20; // false
 
 What's missing?
 <!-- .element: class="fragment" -->
+* Array
+<!-- .element: class="fragment" -->
+* Function
+<!-- .element: class="fragment" -->
 
 ---
 
 ### Recap: arrays
 
+Let's focus on **arrays** for now
+
 * can contain more than one value
+<!-- .element: class="fragment" data-fragment-index="1" -->
 * in general, can contain other data types, even other arrays
 <!-- .element: class="fragment" data-fragment-index="2"-->
 * good to represent lists of things
@@ -79,8 +86,8 @@ let firstName = "Carlo";
 let lastName = "Trimarchi";
 let nationality = "Italian";
 let cityOfBirth = "Messina";
-let favouriteColour = "green";
-let hairColour = "black";
+let favouriteColor = "green";
+let hairColor = "black";
 let canSpeakGerman = false;
 let isVegetarian = true;
 let hadDinner = hour > 20; // false
@@ -245,8 +252,8 @@ let me = {
   lastName:  "Trimarchi",
   nationality:  "Italian",
   cityOfBirth:  "Messina",
-  favouriteColour:  "green",
-  hairColour:  "black",
+  favouriteColor:  "green",
+  hairColor:  "black",
   canSpeakGerman:  false,
   isVegetarian:  true,
   hobbies:  ['reading', 'music', 'guitar'],
