@@ -8,16 +8,16 @@ Lesson 12, Tuesday, 2020-10-06
 
 ### Lesson overview
 
-* recap of Javascprit data types
+* recap of Javascprit types
 * introducing Javascript objects
 * differences between objects and arrays
 * some practice
 
 ---
 
-### Recap: data types
+### Recap: types
 
-What data types have we seen so far?
+What Javascript types have we seen so far?
 
 * Number
 <!-- .element: class="fragment" -->
@@ -30,7 +30,7 @@ What data types have we seen so far?
 
 ---
 
-### Recap: data types
+### Recap: types
 
 ```js
 let age = 39;
@@ -78,7 +78,7 @@ let shoppingList = ['eggs', 'broccoli', 'potatoes', 'sugar', 'flour'];
 
 ---
 
-### Recap: data types
+### Recap: types
 
 ```js
 let age = 39;
@@ -102,7 +102,7 @@ But would it be possible to store all this data into an array?
 
 ---
 
-### Recap: data types
+### Recap: types
 
 ```js
 
