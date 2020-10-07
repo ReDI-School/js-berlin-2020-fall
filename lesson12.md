@@ -8,8 +8,8 @@ Lesson 12, Tuesday, 2020-10-06
 
 ### Lesson overview
 
-* recap of Javascprit types
-* introducing Javascript objects
+* recap of JavaScript types
+* introducing JavaScript objects
 * differences between objects and arrays
 * some practice
 
