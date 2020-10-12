@@ -12,11 +12,103 @@ Lesson overview:
   - how to call a function by clicking a button
 - introduction to the DOM API
 - interacting with HTML elements through the DOM API
-- changing colors and content
+- changing colors and content through JavaScript
 
 ---
 
-### Functions
+### Recap: Functions
+
+1. What are functions?
+1. Why do we need functions?
+1. What are functions useful for?
+
+---
+
+### Recap: Functions
+
+- a function is a reusable block of code
+- a function allows us to group together several lines of code that we can
+  easily run just by executing the function
+- functions are handy and convenient
+- functions let us structure our code better and let us avoid repetitions 
+
+---
+
+### Recap: Functions
+
+
+![Page](images/lesson-14-function-coffee.png) <!-- .element width="500px" style="display: block; margin: 0 auto;" -->
+
+---
+
+### Recap: functions
+
+To use a function:
+
+1. first we need to create, define, a function
+  - function keyword
+  - function name
+  - parantheses ()
+  - optional parameters
+1. then, call the function
+ - function name
+ - parantheses
+
+---
+
+### Recap: Functions
+
+```js
+let numbers = [1, 2, 3];
+let numbersSum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+  numbersSum += numbers[i];
+}
+console.log(numbersSum);
+
+let moreNumbers = [3, 4, 5];
+let moreNumbersSum = 0;
+
+for (let i = 0; i < moreNumbers.length; i++) {
+  moreNumbersSum += moreNumbers[i];
+}
+console.log(moreNumbersSum);
+```
+
+---
+
+### Recap: Functions
+
+```js
+function sum(numbers) {
+  let result = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    result += numbers[i];
+  }
+
+  return result;
+}
+
+console.log(sum([1, 2, 3]));
+console.log(sum([3, 4, 5]));
+```
+
+---
+
+### Recap: Functions
+
+We can also connect a function to an HTML element
+
+```html
+<button onclick="scream()">Click me!</button>
+```
+
+```js
+function scream() {
+  console.log('AAAAAAAAAAAHHHHHHHHHHH');
+}
+```
 
 ---
 
