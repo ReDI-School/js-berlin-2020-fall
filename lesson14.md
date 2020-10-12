@@ -147,7 +147,7 @@ Well, not much. Nothing, actually.
 ### Static vs dynamic pages
 
 - HTML documents are static by nature
-- using CSS, we can change their appearance, make them, hopefully, prettier
+- using CSS, we can change their appearance and make them (hopefully) prettier
 - we can even animate them, to a certain extent
 - but our possibilities of interaction are very limited
 
