@@ -333,7 +333,7 @@ are:
 
 ### The DOM API in practice: getting access to an element
 
-Every operation in the DOM goes through the "document" object. And for now we
+Every operation in the DOM goes through the `document` object. And for now we
 need only one function:
 
 ```js
