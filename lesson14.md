@@ -48,8 +48,8 @@ To use a function:
 1. first we need to create, define, a function
   - function keyword
   - function name
-  - parantheses ()
-  - optional parameters
+  - parantheses (), and optional parameters
+  - function body inside {} with optional return statement
 1. then, call the function
  - function name
  - parantheses
