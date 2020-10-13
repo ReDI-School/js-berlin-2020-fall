@@ -119,6 +119,10 @@ It is possible, but it's a mess.
 
 <!-- .slide: id="lesson12:objects" -->
 
+## Objects
+
+---
+
 ### Objects
 
 An **object**, in Javascript, is a group (or a list) of *key* / *value* pairs

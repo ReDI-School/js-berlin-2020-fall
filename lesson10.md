@@ -46,6 +46,10 @@ let doNotKnow;
 
 <!-- .slide: id="lesson10:arrays" -->
 
+## Arrays
+
+---
+
 ### Arrays
 
 An `array` is a container type that holds multiple values:
