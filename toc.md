@@ -5,7 +5,7 @@
 1. [If Statements](#lesson4:if)
 1. [Functions](#lesson5:functions)
 1. [Loops](#lesson8:loops)
-1. [Array](#lesson10:array)
+1. [Array](#lesson10:arrays)
 1. [Objects](#lesson12:objects)
 1. [DOM](#lesson14:DOM)
 
