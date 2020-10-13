@@ -6,6 +6,8 @@
 1. [Functions](#lesson5:functions)
 1. [Loops](#lesson8:loops)
 1. [Array](#lesson10:array)
+1. [Objects](#lesson12:objects)
+1. [DOM](#lesson14:DOM)
 
 Direct link to lessons: [1](#lesson1) [2](#lesson2) [3](#lesson3) [4](#lesson4) [5](#lesson5) [6](#lesson6) [7](#lesson7) [8](#lesson8) [9](#lesson9) [10](#lesson10) [11](#lesson11) [12](#lesson12) [13](#lesson13) [14](#lesson14)
 

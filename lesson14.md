@@ -112,6 +112,8 @@ function scream() {
 
 ---
 
+<!-- .slide: id="lesson14:DOM" -->
+
 ### Static vs dynamic pages
 
 Let's start with this small HTML document
