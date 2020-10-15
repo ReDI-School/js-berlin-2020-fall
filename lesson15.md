@@ -62,3 +62,22 @@ When the user enters a value into the input and clicks the button, the value of 
 ### DOM Exercise 2: Simple list builder
 
 ![Example](images/lesson-15-exercise-2.png)
+
+---
+
+### Homework
+
+Create a "profile creating" site. It should have:
+* Inputs for first and last name
+* Input for age
+* Input for a profile url
+
+When the user clicks a "Create profile" button, it should copy the data from the form and create a profile with:
+* Combined full name and age
+* The profile image displayed below
+
+---
+
+### Homework
+
+![Example](images/lesson-15-homework.png)
