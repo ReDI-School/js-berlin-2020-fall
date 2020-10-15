@@ -70,7 +70,7 @@ When the user enters a value into the input and clicks the button, the value of 
 Create a "profile creating" site. It should have:
 * Inputs for first and last name
 * Input for age
-* Input for a profile url
+* Input for a profile image url
 
 When the user clicks a "Create profile" button, it should copy the data from the form and create a profile with:
 * Combined full name and age
