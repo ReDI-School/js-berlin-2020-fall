@@ -34,7 +34,7 @@ input.value = "world";
 
 ### DOM Exercise 1
 
-Create a control panel of buttons (say, 10 buttons) that change:
+Create a control panel of buttons (say, 8 buttons) that change:
 * The background color
 * The font color used on the page.
 
@@ -42,8 +42,23 @@ Each button should indicate what it does (ex: "blue background", "green text")
 
 ---
 
-### DOM Exercise 2
+### DOM Exercise 1
 
-Simple todo list:
+![Example](images/lesson-15-exercise-1.png)
 
-Write a page that has an `input` and a `button`. When the user enters a value into the input and clicks the button, the value of the input is saved and displayed into a `div` and the input field is cleared. Subsequent entries will be appended to the value in the div.
+---
+
+### DOM Exercise 2: Simple list builder
+
+Create a page with:
+ * an input with id `myInput`
+ * a button
+ * a div with id `displayText`
+
+When the user enters a value into the input and clicks the button, the value of the input is saved and displayed into the `displayText` div and the input field is cleared. Subsequent entries will be appended to the value in the `displayText` div.
+
+---
+
+### DOM Exercise 2: Simple list builder
+
+![Example](images/lesson-15-exercise-2.png)
