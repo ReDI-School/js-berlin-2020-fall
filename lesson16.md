@@ -142,7 +142,8 @@ and those: `input`, `img`
 <img src="myImage.jpg">
 ```
 
-The contents of `input` and `img` are controlled by an element `attribute`.
+The contents of input and img are controlled by an element attribute.
+<!-- .element: class="fragment" -->
 
 ---
 
@@ -151,10 +152,15 @@ The contents of `input` and `img` are controlled by an element `attribute`.
 Attributes let us define certain properties of HTML elements. Can you name any HTML attribute?
 
 - id, class -> common to every element
-- value -> only `input` elements have it
-- src -> `img` has it. Also `script` and a few others
-- href -> only `a` elements (links) have it
+<!-- .element: class="fragment" -->
+- value -> only input elements have it
+<!-- .element: class="fragment" -->
+- src -> img has it. Also script and a few others
+<!-- .element: class="fragment" -->
+- href -> only a elements (links) have it
+<!-- .element: class="fragment" -->
 - onclick -> common to every element
+<!-- .element: class="fragment" -->
 
 ---
 
@@ -206,14 +212,14 @@ So, if we have an image on our page:
 
 Could we change image just by changing the `src` attribute?
 
-Yes.
+Yes. Try it yourself!
 <!-- .element: class="fragment" -->
 
 ---
 
 ### The DOM API: element attributes
 
-Even more, we can change the `onclick` attribute directly from JavaScript
+Even more, we can add or change the `onclick` attribute directly from JavaScript
 
 ```html
 <button id="myButton">click me!</button>
@@ -240,8 +246,20 @@ Can you explain what's going on here?
 
 ### The DOM API: creating elements
 
-Using the DOM API we can add new elements to the page from scratch. We do it
-through the function `createElement` and `appendChild`.
+The DOM API lets us create new HTML elements from scratch and add them to the
+page.
+
+To do this, we use two other functions provided by the API:
+
+1. `document.createElement()`
+1. `document.appendChild()`
+
+Again, it's a 2 step operation: instead of accessing an existing element, we
+create a new one; then we "append" (add) it to the page.
+
+---
+
+### The DOM API: creating elements
 
 Let's start with an empty page.
 ```html
