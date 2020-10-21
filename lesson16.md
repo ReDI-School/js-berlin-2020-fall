@@ -231,6 +231,7 @@ buttonElement.onclick = scream;
 Can you explain what's going on here?
 
 ---
+
 <!-- .slide: id="lesson16:dom-creating-elements" -->
 
 # Creating elements with the DOM API
