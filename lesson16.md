@@ -6,6 +6,16 @@ Lesson 16, Tuesday, 2020-10-20
 
 ---
 
+### Lesson overview
+
+1. recap/quiz of the DOM API so far
+1. element attributes
+1. creating new elements with the DOM API
+1. practice
+
+
+---
+
 ### The DOM API
 
 1. what's the DOM API?
@@ -357,3 +367,80 @@ Hint: if you keep appending elements to the `body`, they will appear one after
 the other
 
 ---
+
+### The DOM API: recap 
+
+- we can manipulate existing HTML elements
+- we can  create completely new HTML elements, and entire
+  pages
+- depending on the type of element, we can change the content using the
+  `textContent` property or specific attributes
+- we can dynamically attach functions to elements using the `onclick` attribute
+
+---
+
+### The DOM API: exercise
+##### Create a navigation menu
+
+Create a simple navigation menu starting from a JavaScript array of objects. Use
+the files in the folder `nav-menu` as a starting point: 
+
+![](images/lesson-16-navigation-menu.png) <!-- .element width="500px" style="display: block; margin: 0 auto;" -->
+
+-> instructions
+
+---
+
+### The DOM API: exercise
+##### Create a navigation menu
+
+Instructions:
+1. in the JavaScript file there is an array of objects, representing the links
+   for your navigation menu
+1. use a loop to iterate the array and create all the necessary elements
+1. use the HTML provided in the same file as a guide to know which elements to
+   create and in which order to append them
+
+---
+
+### The DOM API: exercise
+##### Shopping list 
+
+Create a simple interactive shopping list. Use the files in the folder `shopping-list` as a starting point: 
+
+![](images/lesson-16-shopping-list.png) <!-- .element width="300px" style="display: block; margin: 0 auto;" -->
+
+-> instructions
+
+---
+
+### The DOM API: exercise
+##### Shopping list 
+
+Instructions:
+
+1. use the input to type items you need to buy
+1. when clicking on the button, the item is added to an unordered list below
+1. after clicking the button, clear the input
+1. the HTML is ready, nothing to be done there. Just write the JavaScript code
+   to get access to the input value and write the function `addItem()`
+
+-> next page for bonus
+
+---
+
+<!-- .slide: style="font-size: 80%;" -->
+
+### The DOM API: exercise
+##### Shopping list 
+
+Bonus:
+
+1. **remove button**: next to each item in the list, add a button to remove the item when clicking
+1. **no duplicates**: avoid inserting duplicate items. For example, if I try to add pizza twice, it
+   still shows (sadly) just one pizza
+1. **quantity**: keep track of item quantities. If I add pizza twice, in the list it will show
+   just one entry for pizza but there will be a "x2" next to it
+1. **change quantity**: besides having a remove button, add two buttons to
+   increase/decrease the quantity of an item
+
