@@ -11,12 +11,12 @@ Lesson 16, Tuesday, 2020-10-20
 1. what's the DOM API?
   - it's an interface that lets us interact with our web page
   <!-- .element: class="fragment" -->
-1. what can we do with?
+1. what can we do with it?
   - we can access HTML elements
   <!-- .element: class="fragment" -->
   - we can read from HTML elements
   <!-- .element: class="fragment" -->
-  - we can change HTML elements content
+  - we can change HTML elements' content
   <!-- .element: class="fragment" -->
 
 ---
@@ -103,7 +103,7 @@ document.body.textContent = "Hello!";
 ---
 
 ### The DOM API: examples
-Clear the content of a `div`, a `paragraph` and an `input`:
+Clear the contents of a `div`, a `paragraph` and an `input`:
 
 ```html
 <div id="myDiv">I'm the content of a div</div>
@@ -127,7 +127,7 @@ myInputElement.value = '';
 
 ### The DOM API
 
-What's the difference between those element: `h1`, `h2`, `p`, `div`
+What's the difference between those elements: `h1`, `h2`, `p`, `div`
 
 ```html
 <h1>This is the main heading</h1>
@@ -142,7 +142,7 @@ and those: `input`, `img`
 <img src="myImage.jpg">
 ```
 
-The content of `input` and `img` is controlled by an element `attribute`.
+The contents of `input` and `img` are controlled by an element `attribute`.
 
 ---
 
