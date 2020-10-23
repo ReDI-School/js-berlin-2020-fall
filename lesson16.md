@@ -314,7 +314,7 @@ document.body.appendChild(titleElement);
 What if we want to append inside a `div` instead of the body?
 
 ```html
-<div class="myDiv"></div>
+<div id="myDiv"></div>
 ```
 
 ```js
@@ -440,7 +440,7 @@ Bonus (check the video demonstration on the next slide):
 1. **cross button**: add a button that when clicked changes the style of the item to appear crossed (tip: the style is `text-decoration: line-through`)
 1. **cross button 2**: on the first click, the item appears "crossed". Clicking
    again, it gets "uncrossed". And so on.
-1. priority button: add another button to indicate the priority through colors:
+1. **priority button**: add another button to indicate the priority through colors:
    the priorities can be: `black` (normal) -> `green` -> `orange` -> `red`.
    On button click, change the colors: if the item is black, change it to green. Then from green to orange, from orange to red, and from red, back to black.
 
