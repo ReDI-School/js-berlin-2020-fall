@@ -67,6 +67,7 @@ console.log(color); // red
 ### The DOM API: examples
 
 Changing the style of a `div`:
+
 ```html
 <div id="content">Hello</div>
 ```
@@ -434,13 +435,18 @@ Instructions:
 ### The DOM API: exercise
 ##### Shopping list 
 
-Bonus:
+Bonus (check the video demonstration on the next slide):
 
-1. **remove button**: next to each item in the list, add a button to remove the item when clicking
-1. **no duplicates**: avoid inserting duplicate items. For example, if I try to add pizza twice, it
-   still shows (sadly) just one pizza
-1. **quantity**: keep track of item quantities. If I add pizza twice, in the list it will show
-   just one entry for pizza but there will be a "x2" next to it
-1. **change quantity**: besides having a remove button, add two buttons to
-   increase/decrease the quantity of an item
+1. **cross button**: add a button that when clicked changes the style of the item to appear crossed (tip: the style is `text-decoration: line-through`)
+1. **cross button 2**: on the first click, the item appears "crossed". Clicking
+   again, it gets "uncrossed". And so on.
+1. priority button: add another button to indicate the priority through colors:
+   the priorities can be: `black` (normal) -> `green` -> `orange` -> `red`.
+   On button click, change the colors: if the item is black, change it to green. Then from green to orange, from orange to red, and from red, back to black.
 
+---
+
+### The DOM API: exercise
+##### Shopping list with bonus
+
+![](images/lesson-16-shopping-list-bonus.gif) <!-- .element width="600px" style="display: block; margin: 0 auto;" -->
