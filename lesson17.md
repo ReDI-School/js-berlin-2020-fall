@@ -78,5 +78,3 @@ We're going to breakout rooms for homework. Please indicate which group you'd li
 ### Bonus Bonus
 
 Instead of only striking through done elements, strike then through _and_ move them to the bottom of the list.
-
----
