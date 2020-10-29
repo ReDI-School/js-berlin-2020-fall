@@ -44,7 +44,7 @@ Can you create a website that shows the products from the array?
 
 1. For every product, add a number input field where the user can specify the amount of products they want to order
 1. Compute the total price the user has to pay, including 5.99 shipping fee
-1. Shipping is free if the sum of all ordered products is 40
+1. Shipping is free if the sum of all ordered products is >= 40
 1. Add a search input field that only shows products that start with the input string (hint - use the [oninput](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput) event and the string method [startsWith](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
 
 ---
