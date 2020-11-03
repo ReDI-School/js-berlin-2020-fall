@@ -100,7 +100,7 @@ console.log(me.name); // "John"
 
 ### Why JSON?
 
-* When we exchange data between a browser and a server, we can only use strings (not objects, numbers, booleans...)
+* When we exchange data between a browser and a server, we can only exchange data, for example a string (not objects, arrays, numbers, booleans...)
 * JSON is a string representation of JavaScript objects
 * JSON can be easily transferred (and stored)
 * The notation is very close to JavaScript objects, easy to handle from JavaScript. No complex transformation required.
@@ -179,7 +179,7 @@ typeof JSON.parse('{"city":"Berlin"}'); // "object"
 * REST stands for **Re**presentational **S**tate **T**ransfer
 * REST APIs work via http(s), the same protocol we use to connect to any website
 * REST APIs commonly use JSON to exchange data
-* Example for a REST API call: https://restcountries.eu/rest/v2/lang/de
+* Example for a REST API URL: https://restcountries.eu/rest/v2/lang/de
 * More info: https://developer.mozilla.org/en-US/docs/Glossary/REST
 
 ---
