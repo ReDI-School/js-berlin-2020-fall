@@ -317,4 +317,4 @@ fetchCountries();
 * Look at the result
 * Use the `fetch` API to fetch the JSON.
 * Can you show the name, capital, population and the flag on your web page?
-* BONUS: Add an `<input>` field where the user can enter a country name, and a "search" button. When the user clicks "search", `fetch` ahd show the details about the country in the input field.
+* BONUS: Add an `<input>` field where the user can enter a country name, and a "search" button. When the user clicks "search", `fetch` and show the details about the country in the input field.
