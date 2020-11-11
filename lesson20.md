@@ -6,126 +6,250 @@ Lesson 20, Thursday, 2020-11-05
 
 ---
 
-### Recap
+“I fear not the man who practiced 10.000 kicks once, but I fear the man who has practiced one kick 10.000 times .”
 
-Can you explain the following?
-
-* REST API
-* JSON
-* `fetch` API
-* `async` / `await` keywords
+--Bruce Lee
 
 ---
 
-### REST APIs
+### Agenda
 
-A good resource to find available REST APIs on the web is:
-
-https://www.programmableweb.com/
-
----
-
-### async / await
-
-Only `async` functions can use the `await` keyword to call other `async` functions, e.g. `fetch`.
-While waiting for the `async` function to finish, the rest of the JavaScript code continues to execute, JavaScript should never block!
-Once a call to an `async` function finishes ("resolves"), the code after the `async` function call resumes to execute.
+* Async functions vs sync functions
+* JSON formatted String
+* Sample async function: fetch
+* Practice
 
 ---
 
-### async / await
+Async Functions vs Sync Functions
 
-Explain the difference between `func2` and `func3`:
+---
+
+### Synchronous Life 
+
+I want to prepare a salad myself
+
+* Buy ingredients
+* Wash ingredients
+* Cut ingredients
+* Mix ingredients in a bowl
+* Once ready, eat your salad
+
+---
+
+### Asynchronous Life
+
+I want to eat a salad and don’t want to pause my life
+
+* Order a salad online
+* Get on with your life until it gets delivered
+* Once delivered, eat your salad
+
+---
+
+### Conclusion
+
+* In programming, if a function reliably takes acceptable amount of time, we tend to implement and call that function synchronously, whereas if a function takes a lot of time and it might fail for various reasons which we have no control over(slow server, loss of Internet connection), we use asyncronous functions to implement our logic. This way, while the asyncronous call is in progress in the background we continue to respond to user events and execute other business logic. 
+
+---
+
+### One Function Two Styles
+
+Compare these two functions, one written in sync style and one in async.
 
 ```js
-async function func1() {
-  await fetch("blah");
+function download() {
+  fetch('https://rickandmortyapi.com/api/character/1');
+  return;
 }
+download();
+```
 
-async function func2() {
-  await func1();
-  console.log("end of func2");
+```js
+async function download() {
+  await fetch('https://rickandmortyapi.com/api/character/1');
+  return;
 }
-
-async function func3() {
-  func1();
-  console.log("end of func3");
-}
+download();
 ```
 
 ---
 
-### async / await
+### Example 1: Sync vs Async Functions
 
-* `func2` waits for the `fetch` call in `func1` to finish, then prints "end of func2".
-* `func3` also calls `func1`, but doesn't wait until the `fetch` in `func1` finishes. It prints "end of func3" immediately, no matter how long `func1` needs to finish/resolve.
-* Rule of thumb: Always call an `async` function with the `await` keyword.
+Observe the effect of an async function on execution order.
+
+* [exercise1.html](./20_exercises/exercise1.html)
+* [exercise1.js](./20_exercises/exercise1.js)
+* [exercise1_interactive.js](./20_exercises/exercise1_interactive.js)
+
 
 ---
 
-### recap: fetch
+JSON Formatted String
 
-* We use the fetch API to download content via http(s) from within JavaScript:
+---
+
+### Is This A String, Formatted As JSON, or A JS Object?
 
 ```js
-async function fetchMyApi() {
-  // "fetch" the URL from the internet in the background
-  let response = await fetch("https://my.api/something");
-  // once we have a response, interpret it as JSON:
-  let result = await response.json();
-}
+let data = '{"name": “Jane"}';
+```
+
+```js
+console.log(typeof data); // string
+```
+<!-- .element: class="fragment" -->
+
+```js
+let data = {"name": "John"};
+```
+
+```js
+console.log(typeof data); // object
+```
+<!-- .element: class="fragment" -->
+
+---
+
+### String vs Object Representation Of Data
+
+Data in string form is good for transmitting the data and storing it on a local storage.
+
+However for accessing the individual parts of a structured data use, object form, which is much faster compared to string form.
+
+---
+
+### Convert Data From String To Object
+
+Use `JSON.parse` to go from `string` to `object`
+
+```js
+let data = '{"name": "Jane"}';
+```
+<!-- .element: class="fragment" -->
+```js
+let obj = JSON.parse(data);
+```
+<!-- .element: class="fragment" -->
+
+---
+
+### Convert Data From Object To String
+
+Use `JSON.stringify` to go from `object` to `string`
+
+```js
+let data = {name: "Jane"};
+```
+<!-- .element: class="fragment" -->
+```js
+let string = JSON.stringify(data);
+```
+<!-- .element: class="fragment" -->
+
+---
+
+### Example 2: JSON String vs JS Object
+
+Observe the same data once in `string` form and once in `object` form. The difference is visually appearant.
+
+* [exercise2.html](./20_exercises/exercise2.html)
+* [exercise2.js](./20_exercises/exercise2.js)
+
+---
+
+Sample Async Function: fetch
+
+---
+
+### Fetching A Resource
+
+To download and upload a resource use `fetch` function
+
+* to download a resource from a web server
+  
+  `let response = await fetch(URL)`
+
+* fetch can be used for uploading too
+  
+  [Example for file upload](https://flaviocopes.com/how-to-upload-files-fetch/)
+
+---
+
+### Example 3: To download use fetch
+
+Observe the usage of `fetch`. It requires both `await` and `async`.
+
+* [exercise3.html](./20_exercises/exercise3.html)
+* [exercise3.js](./20_exercises/exercise3.js)
+
+---
+
+### After Fetching The Resource - Convert to JS Object
+
+After downloading a resource with `fetch`, the data is in raw format, to use it first convert it to a JS Object
+
+`let result = await response.json()`
+
+---
+
+### Example 4: Convert to JS Object
+
+Observe the usage of `response.json`. It also requires an `await` operator.
+
+* [exercise4.html](./20_exercises/exercise4.html)
+* [exercise4.js](./20_exercises/exercise4.js)
+
+---
+
+Practice
+
+---
+
+### Teacher Assisted Practice - displaying Rick character info
+
+By using `async`, `await`, `fetch`, and DOM API, generate a page similar to the image.
+
+![Rick info](./images/lesson-20-rick-info.png) <!-- .element width="300px" style="display: block; margin: 0 auto;" -->
+
+---
+
+### Example 5: Display Rick character info
+
+Study the code for getting data and displaying the result dynamically.
+
+* [exercise5.html](./20_exercises/exercise5.html)
+* [exercise5.js](./20_exercises/exercise5.js)
+
+---
+
+### Review - what have we practiced today?
+
+Make sure the following words make sense to you.
+
+```js
+async …
+await …
+fetch(…)
+response.json()
+
+console.table()
+console.group()
+console.groupEnd()
+let {name} = data     // let name = data.name
 ```
 
 ---
 
-### Quiz time!
+### Bonus
 
-* Go to https://opentdb.com/api_config.php
-* Select a category, a difficulty, and set "Multiple Choice" as Type
-* Click on "Generate API URL"
-* Copy the URL that appeared on top of the page, for example:
-https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multiple
-* Download the URL above.
-* Look at the reply, what does it contain? How can you access its elements?
+* Read the documentation and confirm your understanding of Rick and Morty API as a group or an individual
+* Google a project idea or use your imagination
+* Alternatively produce a similar result to [Rick and Morty API webpage](https://rickandmortyapi.com/)
 
 ---
 
-### Quiz time!
+### Sample solution
 
-* Think about your Quiz HTML page. How would you like it structured?
-* All 10 questions at once, or question after question?
-* Which HTML elements do we need?
-* Do we create those in HTML and use `document.getElementById` to access them from JavaScript?
-* Do we create them in JavaScript with `document.createElement`?
-
----
-
-### Quiz time!
-
-* Create your HTML page
-* Now, we need the logic. That's where JavaScript comes in :)
-* Use `fetch` to fetch your results. Remember to `await` and interpret the response as JSON
-* Let's start simple - display only one question of your quiz.
-* Tell the user whether the answer was correct or not
-
----
-
-### Quiz time!
-
-* Now comes the tricky part - once the user chose an answer, we need to display the next question. But since we don't want to write the same code twice, how can we structure the code?
-* Try to write a `function` that takes a question and shows it on the screen
-* After the user chose his answer, call your function to show the next question
-* Bonus: Keep track of the score (how many correct/wrong answers).
-* Bonus: Add some CSS to make it pretty
-* Bonus: Add a button to restart the game from the beginning
-
----
-
-### Quiz time!
-
-Please indicate your preference:
-
-1. Guided mode - solve the quiz in a team with teacher
-1. Independent mode - solve the quiz on your own, but ask for help when stuck.
-
-Homework: Finish the quiz and have fun playing it ;)
+[Here](https://codesandbox.io/s/redi-and-morty-hgc86?file=/src/index.js) is an example solution for displaying Rick and Morty characters
