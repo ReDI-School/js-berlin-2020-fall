@@ -179,7 +179,7 @@ To download and upload a resource use `fetch` function
 
 ### Example 3: To download use fetch
 
-Observe the usage of `fetch`. It requires both `await` and `async`.
+Observe the usage of `fetch`. It requires both `await` and `async`. If we `await` the result of `fetch` function, we get a response object back.
 
 * [exercise3.html](./20_exercises/exercise3.html)
 * [exercise3.js](./20_exercises/exercise3.js)
@@ -188,9 +188,11 @@ Observe the usage of `fetch`. It requires both `await` and `async`.
 
 ### After Fetching The Resource - Convert to JS Object
 
-After downloading a resource with `fetch`, the data is in raw format, to use it first convert it to a JS Object
+Response object does not contain the JSON data we requested right away. To get JSON formatted data object, we need to call `json` function on response object.
 
 `let result = await response.json()`
+
+[For more information about response.json check this page](https://javascript.info/fetch)
 
 ---
 
