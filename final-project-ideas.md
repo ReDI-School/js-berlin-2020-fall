@@ -51,20 +51,20 @@ E-commerce website with a shop page listing products and the possiblity to add t
 - ability to change quantity or remove a product from the cart
 - products data should come from an API
 
-## 6. Currency comparison app (Ammar)
+## 7. Currency comparison app (Ammar)
 Service to compare currencies from all over the world
 
 ### Notes
 - This might be combined with the e-commerce project idea
 
 
-## 7. Calculator (Amir)
+## 8. Calculator (Amir)
 A calculator app to make mathematical calculations
 
 ### Notes
  - might be integrated in other projects like Ammar's or Anju's
 
-## 8. App with subscription fee (Odirah)
+## 9. App with subscription fee (Odirah)
 An app replicating the functionalities of some service like Amazon Prime: users subscribe to it to get access to some service
 
 - to use the service people need to subscribe
@@ -77,14 +77,14 @@ An app replicating the functionalities of some service like Amazon Prime: users 
 ### Notes
 It would be good to come up with a specific service to build, so it feels less abstract
 
-## 9. Traveling app for tourists (Eghosa)
+## 10. Traveling app for tourists (Eghosa)
 App to provide users information about a city or a specific district
 - getting data from a specific city or district
 -  possibility to search for restaurants
 - possibility to search for shops or other services
 - get directions to get to the selected place 
 
-## 10. Movie or music gallery (Amjad)
+## 11. Movie or music gallery (Amjad)
 App to show list of movies or music
 
 - get data from some external service
