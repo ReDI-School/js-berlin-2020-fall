@@ -1,4 +1,11 @@
-## 1. Word of the day (Nadiia) 
+## 1. Giphy "copycat" (Camila) 
+Display trending and most popular gifs while also being able to search for specific gifs.
+- show most popular gifs
+- show random gif
+- search for gifs
+- use the [giphy api](https://developers.giphy.com/docs/api/)
+
+## 2. Word of the day (Nadiia) 
 Show a different word every day together with information about that word: definition, etimology and anything else.
   - data should come from an external source 
     - Urban Dictionary
@@ -10,7 +17,7 @@ Show a different word every day together with information about that word: defin
   - show images related to the word
   - show quotes that use the word
 
-## 2. Todo list / habit tracker (Nadiia) 
+## 3. Todo list / habit tracker (Nadiia) 
 Todo list app with the possibility of adding recurring tasks
 - basic functionalities of a todo list app 
 - possibility to add tasks for a specific day in the future
@@ -20,13 +27,13 @@ Todo list app with the possibility of adding recurring tasks
 - add tags for tasks
     - different colors depending on the tag
 
-## 3. Quote of the day (Nadiia - Isabelle) 
+## 4. Quote of the day (Nadiia - Isabelle) 
 Show a different quote every day and give the possibility to search for quotes based on author.
 - get quotes from an external service
     - goodreads?
     - [quotes.rest](https://quotes.rest/)
     
-## 4. Corona energizer (Sitora)
+## 5. Corona energizer (Sitora)
 Provide motivational, inspiring, funny, light content to lift up our mood during those hard times
 -  you have a few options to specify your current mood 
 - depending on the mood you get some motivational content
@@ -34,13 +41,6 @@ Provide motivational, inspiring, funny, light content to lift up our mood during
     - texts
     - blog posts
     - quotes
-
-## 5. Giphy "copycat" (Camila) 
-Display trending and most popular gifs while also being able to search for specific gifs.
-- show most popular gifs
-- show random gif
-- search for gifs
-- use the [giphy api](https://developers.giphy.com/docs/api/)
 
 ## 6. E-commerce + shopping cart (Anju)
 E-commerce website with a shop page listing products and the possiblity to add them to the cart.
